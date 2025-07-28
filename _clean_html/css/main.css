@@ -183,3 +183,17 @@ p{
 b{
   color:#2F374A;
 }
+
+#square{
+  background: radial-gradient(#008283 10%, #013D3D 90%);
+  height:630px;
+}
+
+#hero-img{
+  opacity: 0.7;
+  height:630px;
+  width:100%;
+  overflow:hidden;
+  object-fit:cover;
+  top:300px;
+}
