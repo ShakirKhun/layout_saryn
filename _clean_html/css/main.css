@@ -205,6 +205,8 @@ b{
 
 #recommendation{
   text-align: center;
+  background: #ffffff;
+  background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(249, 249, 249, 1) 100%);
 
 }
 
@@ -223,4 +225,37 @@ b{
   background: -webkit-linear-gradient(#4C5578, #A1A9B2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+#partners{
+  padding-top:166px;
+  background-color: #ffffff;
+  padding-bottom:141px;
+}
+#partners .container{
+  height:90px;
+}
+
+#partners ul, #partners li, #partners img{
+  height: 100%;
+  filter: grayscale(100%);
+}
+
+#partners li{
+  font-family: "Segoe UI";
+  font-size: 24px;
+  text-align: center !important;
+}
+
+#partners .list-group *{
+  background: none;
+  border: none;
+}
+
+#partners .sm-img{
+  height:80%;
+}
+
+#partners .h-100{
+  padding-top:40%;
 }
