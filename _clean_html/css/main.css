@@ -81,6 +81,7 @@ header .btn{
   margin-left: 10px;
   font-size: 14px;
   height:50px;
+  border-radius:5px;
 }
 
 header .btn-outline-secondary{
@@ -171,6 +172,10 @@ p{
   border-radius: 10px;
 }
 
+/* #about .color-2F374A{
+  line-height: 100% ;
+} */
+
 .color-2F374A{
   color:#2F374A;
 }
@@ -184,7 +189,7 @@ b{
   color:#2F374A;
 }
 
-#square{
+/* #square{
   background: radial-gradient(#008283 10%, #013D3D 90%);
   height:630px;
 }
@@ -196,4 +201,26 @@ b{
   overflow:hidden;
   object-fit:cover;
   top:300px;
+} */
+
+#recommendation{
+  text-align: center;
+
+}
+
+#recommendation .accent-color{
+  font-size:20px;
+  font-family:Roboto;
+}
+
+#recommendation p{
+  font-family:Inter;
+  font-size:30px;
+  font-weight: 300;
+  width: 80%;
+  margin:auto;
+  margin-top:25px;
+  background: -webkit-linear-gradient(#4C5578, #A1A9B2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
