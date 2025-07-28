@@ -122,6 +122,15 @@ section{
   font-size:16px;
 }
 
+#about h1{
+  font-family: 'Cormorant Garamond';
+  font-weight: 600;
+  font-size:60px;
+  text-transform: uppercase;
+  color:#4A596B;
+  margin-bottom: 40px;
+}
+
 #about .accent-color{
   font-size: 14px;
   font-weight: 500;
@@ -135,15 +144,6 @@ section{
 
 #book-card img{
   height: 504px;
-}
-
-#about h1{
-  font-family: 'Cormorant Garamond';
-  font-weight: 600;
-  font-size:60px;
-  text-transform: uppercase;
-  color:#4A596B;
-  margin-bottom: 40px;
 }
 
 .card-title{
@@ -189,25 +189,40 @@ b{
   color:#2F374A;
 }
 
-/* #square{
-  background: radial-gradient(#008283 10%, #013D3D 90%);
+#hero{
+  padding-top:140px;
+}
+
+#hero .container{
+  position: relative;
+}
+#square{
+  background: radial-gradient(rgba(0, 130, 131, 0.6) 1%, rgba(0, 130, 131, 0.7) 20%, rgba(1, 61, 61, 1) 70%, rgba(1, 61, 61, 1));
   height:630px;
+  width:100%;
+  position: relative;
+  z-index: 3;
+  opacity: 1;
 }
 
 #hero-img{
-  opacity: 0.7;
   height:630px;
   width:100%;
   overflow:hidden;
   object-fit:cover;
   top:300px;
-} */
+  object-position: 50% 20% ;
+  position: absolute; 
+  top:0;
+  left:0;
+  z-index: 1;
+}
 
 #recommendation{
+  padding-top:140px;
   text-align: center;
   background: #ffffff;
   background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(249, 249, 249, 1) 100%);
-
 }
 
 #recommendation .accent-color{
@@ -253,7 +268,7 @@ b{
 }
 
 #partners .sm-img{
-  height:80%;
+  height:75%;
 }
 
 #partners .h-100{
