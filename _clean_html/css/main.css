@@ -402,6 +402,13 @@ footer li.accent-color{
   #hero-content img{
     width: 92%;
   }
+
+  #about .container .row .col-12{
+    margin-top:0 !important;
+    padding-top:0 !important;
+  }
+
+
 }
 
 @media screen and (max-width: 1199px) {
@@ -534,6 +541,10 @@ footer li.accent-color{
 }
 
 @media screen and (max-width: 767px){
+  /* #about .container p{
+    width: 100% !important;
+  } */
+
   #partners ul.list-group{
     flex-wrap: wrap;
   }
@@ -542,4 +553,30 @@ footer li.accent-color{
     background-size: 100% 512px;
   }
 
+}
+
+@media screen and (max-width: 575px){
+  header{
+    height: 140px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  header svg.logo{
+    height: 88px;
+  }
+  #about h1{
+    font-size:35px;
+  }
+
+  #about{
+    padding: 20px;
+  }
+
+  #about .card-body{
+    margin-top:7px;
+  }
+
+  #about .card-body b{
+    font-size: 20px;
+  }
 }
