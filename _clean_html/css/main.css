@@ -63,6 +63,15 @@ body {
   display: none;
 }
 
+main {
+  background-color: #F9F9F9;
+}
+
+section{
+  padding-top:100px;
+
+}
+
 header {
   height: 200px;
   font-size: 16px;
@@ -99,19 +108,87 @@ header .btn-primary{
   padding-left: 24px;
 }
 
+.navbar .navbar-toggler{
+  border:none;
+  outline: none !important;
+  box-shadow: none !important;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+}
+
+#hidden-nav{
+  background-color: #7C8794;
+  position:absolute;
+  width: 100%;
+  z-index:3;
+  font-family: Inter;
+  font-size: 16px;
+  
+  overflow: hidden;
+  max-height: 0px;
+  transition: all 0.4s linear;
+
+}
+
+#hidden-nav.active{
+  max-height: 100%;
+}
+
+#close-button{
+  position: absolute;
+  top:-4px;
+  right: 0px;
+  opacity: 0;
+  transition: all 0.1s linear;
+}
+
+#open-button{
+  top:-4px;
+  right: 0px;
+  position: absolute;
+  transition: all 0.1s linear;
+}
+
+#hidden-nav ul{
+  list-style-type: none;
+}
+
+#hidden-nav li a{
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  color:#ffffff;
+  text-decoration: none;
+}
+
+#hidden-nav .btn{
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-width: 1.5px;
+}
+
+
+
+#hidden-nav .btn-outline-secondary{
+  color: #ffffff;
+  font-size: 14px;
+  border-color: #D9D9D9;
+}
+
+#hidden-nav .btn-primary{
+  color:#4C5578;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  font-size: 14px;
+}
+
 .accent-color{
   color:#008283;
 }
 
-
-main {
-  background-color: #F9F9F9;
-}
-
-section{
-  padding-top:100px;
-
-}
 
 #about{
   font-family: Roboto;
@@ -363,6 +440,12 @@ footer li.accent-color{
 }
 
 @media screen and (max-width: 991px){
+  header button.btn{
+    width: 40px;
+    height: 40px;
+    padding:0;
+  }
+  
   #about{
     padding-top:70px;
   }

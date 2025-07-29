@@ -45,3 +45,24 @@ $(window).load(function() {
   $(".loader").delay(400).fadeOut("slow");
 
 });
+
+const toggleBtn = document.getElementById('menu-toggle')
+const menu = document.getElementById('hidden-nav')
+const closeButton = document.getElementById('close-button')
+const openButton = document.getElementById('open-button')
+let closed = true;
+
+toggleBtn.addEventListener('click', () => {
+  if(closed){
+    closeButton.style.opacity = '1';
+    openButton.style.opacity = '0';
+    closed = false;
+  }
+  else{
+    closeButton.style.opacity = '0';
+    openButton.style.opacity = '1';
+    closed = true;
+  }
+  menu.classList.toggle('active');
+
+})
