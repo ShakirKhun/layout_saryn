@@ -51,7 +51,7 @@ html.js .loader_inner {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: Roboto;
   font-size: 16px;
   min-width: 320px;
   position: relative;
@@ -71,10 +71,6 @@ header {
   color:#4C5578;
 }
 
-header img{
-  width: 217.01px;
-  height: 140px;
-}
 
 header .btn{
   padding: 0 20px;
@@ -138,12 +134,11 @@ section{
 #book-card{
   background-color: #EAEBEE;
   border: none;
-  width:644px;
-  height:620px;
+  padding-bottom:15px;
 }
 
 #book-card img{
-  height: 504px;
+  max-height: 504px;
 }
 
 .card-title{
@@ -193,11 +188,27 @@ b{
   padding-top:140px;
 }
 
+#hero p{
+  color: #fff;
+  letter-spacing: 0;
+  line-height: 100%;
+  font-weight: 400;
+  width: 80%;
+}
+
+#hero h2{
+  font-family: 'Cormorant Garamond';
+  font-weight: 600;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
 #hero .container{
   position: relative;
 }
 #square{
-  background: radial-gradient(rgba(0, 130, 131, 0.6) 1%, rgba(0, 130, 131, 0.7) 20%, rgba(1, 61, 61, 1) 70%, rgba(1, 61, 61, 1));
+  background: radial-gradient(rgba(0, 130, 131, 0.7) 1%, rgba(0, 130, 131, 0.7) 20%, rgba(1, 61, 61, 1) 70%, rgba(1, 61, 61, 1));
   height:630px;
   width:100%;
   position: relative;
@@ -216,6 +227,7 @@ b{
   top:0;
   left:0;
   z-index: 1;
+  filter: brightness(70%)
 }
 
 #hero-content{
@@ -264,6 +276,7 @@ b{
   font-family: "Segoe UI";
   font-size: 24px;
   text-align: center !important;
+  display:flex;
 }
 
 #partners .list-group *{
@@ -277,4 +290,173 @@ b{
 
 #partners .h-100{
   padding-top:40%;
+}
+footer{
+  font-family: Roboto;
+  font-size: 12px;
+  padding-bottom:20px;
+}
+
+footer li.list-group-item{
+  border:none;
+  color:rgba(13, 33, 58, 0.54);
+  padding-top:0;
+  padding-bottom:0;
+  padding-right:0;
+}
+
+footer li.accent-color{
+  color:#008283;
+  font-weight: 700;
+  font-family: Inter;
+  margin-bottom: 2px;
+}
+
+.font-size-14{
+  font-size:14px;
+}
+
+@media screen and (max-width: 1399px) {
+  #about .row div.col-6{
+    padding-top:0 !important;
+    margin-top:0 !important;
+  }
+
+  #hero-content img{
+    width: 92%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  #partners li{
+    height: 80%;
+  }
+
+  #partners .container{
+    padding-left:0;
+  }
+
+  #partners .h-100{
+    padding-top:20%;
+  }
+
+  #partners .sm-img{
+    height:65%;
+  }
+
+  header svg.logo{
+    height: 100px;
+    width:auto;
+  }
+
+  .navbar-nav li{
+    font-size:14px;
+    padding-left:10px;
+  }
+  .navbar-nav li svg{
+    height:16px;
+  }
+
+  #hero-content h2{
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 991px){
+  #about{
+    padding-top:70px;
+  }
+
+  #about .container:first-child{
+    padding-left:0;
+    padding-right:0;
+  }
+
+  #about h1{
+    font-size:50px;
+  }
+
+  #about .card{
+    margin-top: 70px;
+    border-radius: 20px;
+  }
+
+  #hero{
+    padding-top: 30px;
+  }
+
+  #hero .container .col:nth-child(2){
+    background-color:rgba(1, 61, 61, 1);
+    padding:40px;
+    border-bottom-left-radius: 20px; /* Adjust value as needed */
+    border-bottom-right-radius: 20px;
+  }
+
+
+  #hero-img{
+    border-radius: 20px;
+    height: 683px;
+  }
+
+  #hero-content img{
+    width: 100%;
+  }
+
+  #square{
+    height:100%;
+    background: radial-gradient(rgba(0, 130, 131, 0.7) 1%, rgba(0, 130, 131, 0.7) 20%, rgba(1, 61, 61, 1) 70%, rgba(1, 61, 61, 1));
+    background-repeat: no-repeat;
+    background-size: 100% 683px;
+    background-position: top;
+    border-radius: 20px;
+  }
+
+  #square p{
+    width:100%;
+  }
+
+  #recommendation{
+    padding-top:70px;
+  }
+
+  #partners{
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  #partners li{
+    height: 60%;
+  }
+  #partners .container{
+    padding-left:0;
+  }
+  #partners .h-100{
+    padding-top:10%;
+  }
+  #partners .sm-img{
+    height:55%;
+  }
+
+  footer svg{
+    width: 90%;
+  }
+
+  #copyright{
+    flex-direction: column;
+  }
+
+  #copyright svg{
+    width:14px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  #partners ul.list-group{
+    flex-wrap: wrap;
+  }
+
+  #square{
+    background-size: 100% 512px;
+  }
+
 }
