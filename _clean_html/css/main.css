@@ -67,6 +67,7 @@ main {
   background-color: #F9F9F9;
 }
 
+
 section{
   padding-top:100px;
 
@@ -87,6 +88,7 @@ header .btn{
   font-size: 14px;
   height:50px;
   border-radius:5px;
+  border-width:1.5px;
 }
 
 header .btn-outline-secondary{
@@ -94,13 +96,38 @@ header .btn-outline-secondary{
   border-color: #D9D9D9;
 }
 
+header .btn-outline-secondary:hover{
+  background-color: #F9F9F9;
+  border-color: #D9D9D9;
+  color: #0D213A;
+}
+
 header .btn-primary{
   background-color: #4C5578;
   border-color:#4C5578;
 }
 
-.navbar-nav{
+header .btn-primary:hover{
+  background-color: #008283;
+}
+
+
+header .navbar-nav{
   display: inline !important;
+}
+
+header .navbar-nav .nav-item a:hover{
+  color:#008283;
+}
+
+header .navbar-nav .nav-item svg:hover{
+  stroke:#008283;
+  stroke-width: 0.5px;
+}
+
+header .navbar-nav .nav-item a{
+  color: #4C5578;
+  text-decoration: none;
 }
 
 .navbar li{
@@ -183,6 +210,35 @@ header .btn-primary{
   background-color: #ffffff;
   border-color: #ffffff;
   font-size: 14px;
+}
+
+.hidden-menu{
+  background-color: #7C8794;
+  position:absolute;
+  width: 100%;
+  z-index:3;
+  font-family: Inter;
+  font-size: 16px;
+  padding: 40px 0;
+  
+  /* overflow: hidden;
+  max-height: 0px;
+  transition: all 0.4s linear; */
+
+}
+
+.hidden-menu ul{
+  list-style-type: none;
+}
+
+.hidden-menu li{
+  margin-bottom: 5px;
+}
+
+
+.hidden-menu a{
+  color: #FFF;
+  text-decoration: none;
 }
 
 .accent-color{
