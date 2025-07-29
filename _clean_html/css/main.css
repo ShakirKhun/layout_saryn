@@ -475,7 +475,7 @@ footer li.accent-color{
     padding-top: 30px;
   }
 
-  #hero .container .col:nth-child(2){
+  #hero .container .col-12:nth-child(2){
     background-color:rgba(1, 61, 61, 1);
     padding:40px;
     border-bottom-left-radius: 20px; /* Adjust value as needed */
@@ -578,5 +578,26 @@ footer li.accent-color{
 
   #about .card-body b{
     font-size: 20px;
+  }
+
+  #hero{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  #hero h2{
+    font-size:35px;
+  }
+
+  #square{
+    background-size: 100% 90vw;
+  }
+
+  #square .row div.pe-5{
+    padding-right: 0 !important;
+  }
+  
+  #square .row div.col-12{
+    padding: 20px !important;
   }
 }
