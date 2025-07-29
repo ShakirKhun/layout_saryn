@@ -541,9 +541,9 @@ footer li.accent-color{
 }
 
 @media screen and (max-width: 767px){
-  /* #about .container p{
-    width: 100% !important;
-  } */
+  #recommendation p{
+    width: 100%;
+  }
 
   #partners ul.list-group{
     flex-wrap: wrap;
@@ -600,4 +600,19 @@ footer li.accent-color{
   #square .row div.col-12{
     padding: 20px !important;
   }
+
+  #recommendation {
+    padding-top: 60px;
+  }
+
+  #recommendation h2.accent-color{
+    font-size: 14px;
+  }
+
+  #recommendation p{
+    padding:20px !important;
+    font-size: 18px;
+    margin: 0 !important;
+  }
+
 }
