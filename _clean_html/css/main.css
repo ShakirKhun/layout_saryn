@@ -694,6 +694,10 @@ footer .social-media:hover rect{
   filter: hue-rotate(60deg);;
 }
 
+#archive a{
+  text-decoration: none;
+}
+
 
 @media screen and (max-width: 1399px) {
   #about .row div.col-6{
