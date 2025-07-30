@@ -120,9 +120,8 @@ header .navbar-nav .nav-item a:hover{
   color:#008283;
 }
 
-header .navbar-nav .nav-item svg:hover{
-  stroke:#008283;
-  stroke-width: 0.5px;
+header .navbar-nav .nav-item svg:hover path{
+  fill:#008283;
 }
 
 header .navbar-nav .nav-item a{
@@ -447,17 +446,42 @@ footer{
 
 footer li.list-group-item{
   border:none;
-  color:rgba(13, 33, 58, 0.54);
   padding-top:0;
   padding-bottom:0;
   padding-right:0;
 }
 
-footer li.accent-color{
+footer li a{
+  text-decoration: none;
+  color: #808494;
+}
+
+footer li a:hover{
+  text-decoration: none;
+  color: #4C5578;
+}
+
+footer .accent-color{
   color:#008283;
   font-weight: 700;
   font-family: Inter;
   margin-bottom: 2px;
+}
+
+footer .social-media:hover rect{
+  fill:#4C5578;
+}
+
+#button-up{
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  border:solid 1px #979797;
+  border-radius: 5px;
+}
+
+#button-up:hover{
+  background-color: #F9F9F9;
 }
 
 .font-size-14{
