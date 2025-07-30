@@ -109,6 +109,7 @@ header .btn-primary{
 
 header .btn-primary:hover{
   background-color: #008283;
+  border-color:#008283;
 }
 
 
@@ -128,6 +129,60 @@ header .navbar-nav .nav-item a{
   color: #4C5578;
   text-decoration: none;
 }
+
+#langOptions{
+  z-index: 2;
+}
+
+#hidden-lang{
+  display: none;
+}
+
+#langOptions button {
+  padding:0;
+  margin:0;
+  width: 100%;
+}
+
+#langOptions .hoverForBtn  {
+  background-color: #FFFFFF;
+  width: 50px;
+  margin-left: 10px;
+  border: 1.5px solid #D9D9D9;
+  border-radius: 5px;
+}
+
+
+
+#hidden-lang .hoverForBtn:first-child {
+  border-radius: 0;
+  border-bottom: none;
+  border-top: none;
+}
+
+/* Последняя кнопка (EN) */
+#hidden-lang .hoverForBtn:last-child {
+  border-radius: 0 0 5px 5px;
+  border-top: none;
+}
+
+
+
+#langOptions button:hover{
+  background-color: #4C5578;
+  border-radius: 5px;
+  color: #ffffff;
+  /* border: 1.5px solid #D9D9D9; */
+}
+
+#langOptions .btn{
+  border:none;
+}
+
+#hidden-lang{
+  position: absolute;
+}
+
 
 .navbar li{
   display: inline;
@@ -162,6 +217,28 @@ header .navbar-nav .nav-item a{
   max-height: 100%;
 }
 
+#hidden-nav svg{
+  transform: rotate(-90deg);
+}
+
+#hidden-nav .btn-primary{
+  border: 1.5px solid #D9D9D9;
+}
+
+#hidden-nav .btn-primary:hover{
+  background-color: #F9F9F9;
+}
+
+#hidden-lang{
+  position: absolute;
+}
+
+
+
+#navJournalMenu, #navAuthorMenu, #navPolicyMenu, #navReviewMenu{
+  display: none;
+}
+
 #close-button{
   position: absolute;
   top:-4px;
@@ -181,12 +258,16 @@ header .navbar-nav .nav-item a{
   list-style-type: none;
 }
 
-#hidden-nav li a{
+#hidden-nav li div, #hidden-nav li a{
   margin-bottom: 8px;
   display: flex;
   justify-content: space-between;
   color:#ffffff;
   text-decoration: none;
+}
+
+#hidden-nav li div:hover{
+  cursor: pointer;
 }
 
 #hidden-nav .btn{
@@ -536,6 +617,11 @@ footer .social-media:hover rect{
 }
 
 #button-up{
+  z-index: 1;
+  height: 50px;
+}
+
+#button-up button{
   width: 50px;
   height: 50px;
   background-color: #ffffff;
@@ -543,7 +629,7 @@ footer .social-media:hover rect{
   border-radius: 5px;
 }
 
-#button-up:hover{
+#button-up button:hover{
   background-color: #F9F9F9;
 }
 
