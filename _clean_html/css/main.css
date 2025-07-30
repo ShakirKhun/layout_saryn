@@ -214,7 +214,8 @@ header .navbar-nav .nav-item a{
 .hidden-menu{
   background-color: #7C8794;
   position:absolute;
-  width: 100%;
+  left: 0;
+  width: 100vw;
   z-index:3;
   font-family: Inter;
   font-size: 16px;
@@ -239,6 +240,64 @@ header .navbar-nav .nav-item a{
   color: #FFF;
   text-decoration: none;
 }
+
+#journal-menu, #author-menu, #policy-menu, #review-menu, #search-menu{
+  display: none;
+}
+
+/* #journal-menu .row, #author-menu .row, #policy-menu .row, #review-menu .row{
+  padding-left: 36%;
+} */
+
+#search-menu .container{
+  padding-left: 500px;
+}
+
+#journal-menu .container, #author-menu .container, #policy-menu .container, #review-menu .container{
+  padding-left: 475px;
+}
+
+
+#search{
+  background: none;
+  border: none;
+  color: white;
+  border-radius: 0;
+  width: 50%;
+}
+#search::placeholder {
+  color: white;
+  opacity: 1;
+  font-size: 14px;
+  font-family: Roboto;
+}
+
+#search:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: white;
+}
+
+#search-menu .row{
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+
+
+#search-menu span{
+  width: 29px;
+  height: 30px;
+}
+#search-menu svg{
+  width: 24px;
+  height: 24px;
+}
+#search-menu span{
+  margin-right: 10px;
+}
+
+
+
 
 .accent-color{
   color:#008283;
@@ -507,6 +566,16 @@ footer .social-media:hover rect{
     padding-top:0 !important;
   }
 
+  #journal-menu .container, #author-menu .container, #policy-menu .container, #review-menu .container{
+    padding-left: 294px;
+  }
+
+
+  #search-menu .container{
+    padding-left: 320px;
+  }
+
+
 
 }
 
@@ -536,6 +605,15 @@ footer .social-media:hover rect{
   .navbar-nav li svg{
     height:16px;
   }
+
+  #journal-menu .container, #author-menu .container, #policy-menu .container, #review-menu .container{
+    padding-left: 270px;
+  }
+
+  #search-menu .container{
+    padding-left: 300px;
+  }
+
 
   #hero-content h2{
     font-size: 50px;

@@ -46,26 +46,62 @@ $(window).load(function() {
 
 });
 
-const toggleBtn = document.getElementById('menu-toggle')
-const menu = document.getElementById('hidden-nav')
-const closeButton = document.getElementById('close-button')
-const openButton = document.getElementById('open-button')
-let closed = true;
+// const toggleBtn = document.getElementById('menu-toggle');
+// const menu = document.getElementById('hidden-nav');
+// const closeButton = document.getElementById('close-button');
+// const openButton = document.getElementById('open-button');
+// let closed = true;
 
-toggleBtn.addEventListener('click', () => {
-  if(closed){
-    closeButton.style.opacity = '1';
-    openButton.style.opacity = '0';
-    closed = false;
-  }
-  else{
-    closeButton.style.opacity = '0';
-    openButton.style.opacity = '1';
-    closed = true;
-  }
-  menu.classList.toggle('active');
+// toggleBtn.addEventListener('click', () => {
+//   if(closed){
+//     closeButton.style.opacity = '1';
+//     openButton.style.opacity = '0';
+//     closed = false;
+//   }
+//   else{
+//     closeButton.style.opacity = '0';
+//     openButton.style.opacity = '1';
+//     closed = true;
+//   }
+//   menu.classList.toggle('active');
 
-})
+// });
 
-// const journalHover = document.getElementById('journal-button')
-// const journalDropdown = document.getElementById('journal-menu')
+// const journalHover = document.getElementById('journal-button');
+// const journalDropdown = document.getElementById('journal-menu');
+
+// let isHovering = false;
+// let timeout;
+
+// function showMenu(){
+//   journalDropdown.style.display = 'block';
+// };
+
+// function hideMenu(){
+//   timeout = setTimeou(() => {
+//     if (!isHovering){
+//       journalDropdown.style.display = 'none';
+//     }
+//   }, 200);
+// };
+
+// journalHover.addEventListener('mouseenter' () => {
+//   clearTimeout(timeout);
+//   isHovering = true;
+//   showMenu();
+// });
+
+// journalHover.addEventListener('mouseleave' () => {
+//   isHovering = false;
+//   hideMenu();
+// });
+
+// journalDropdown.addEventListener('mouseenter' () => {
+//   clearTimeout(timeout);
+//   isHovering = true;
+// });
+
+// journalDropdown.addEventListener('mouseleave' () => {
+//   isHovering = false;
+//   hideMenu();
+// });
