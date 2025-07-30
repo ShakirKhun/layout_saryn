@@ -637,6 +637,64 @@ footer .social-media:hover rect{
   font-size:14px;
 }
 
+
+
+
+/* styles for archive section */
+
+#archive{
+  padding-top: 80px;
+  padding-bottom: 235px;
+  background: #ffffff;
+  background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(249, 249, 249, 1) 100%);
+
+}
+#archive h2, #archive h3{
+  font-family: 'Roboto';
+}
+
+#archive h1{
+  font-family: 'Cormorant Garamond';
+  color: #008283;
+  font-weight: 600;
+  font-size:60px;
+  margin-bottom: 20px;
+}
+
+#archive h2{
+  color: #4C5578;
+  font-weight: 500;
+  font-size: 40px;
+  margin-top: 40px;
+}
+
+#archive .card{
+  border: 1px solid #EAEBEE;
+  background-color: #EAEBEE;
+  padding: 0px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+#archive .card:hover{
+  border: 1px solid #4C5578;
+}
+
+
+#archive .card-title{
+  margin: 0;
+  padding: 0 0 20px 20px;
+}
+
+#archive .green-filter .card img{
+  filter: hue-rotate(300deg);;
+}
+
+#archive .pink-filter .card img{
+  filter: hue-rotate(60deg);;
+}
+
+
 @media screen and (max-width: 1399px) {
   #about .row div.col-6{
     padding-top:0 !important;
