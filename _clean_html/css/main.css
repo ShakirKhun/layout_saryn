@@ -698,6 +698,110 @@ footer .social-media:hover rect{
   text-decoration: none;
 }
 
+/* styles for сurrent section */
+#current-edition{
+  font-family: Roboto;
+  font-size: 16px;
+  color: #2B2A29;
+  padding-bottom: 200px;
+  background: #ffffff;
+  background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(249, 249, 249, 1) 100%);
+}
+
+
+#current-edition h1{
+  font-family: 'Cormorant Garamond';
+  font-weight: 600;
+  font-size: 60px;
+  margin-bottom: 30px;
+  color: #4A596B;
+}
+
+#current-edition h2{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 18px;
+
+}
+
+#current-edition .authors{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#current-edition .authors:hover h2{
+  color: #008283;
+}
+
+#current-edition .authors:hover hr{
+  border: 2px solid #008283;  
+  opacity: 1;
+  margin-top: 11px;
+}
+
+
+
+
+#current-edition hr{
+  margin-left: 6px;
+  margin-top: 12px;
+}
+
+#current-edition .card{
+  border: 1px solid #EAEBEE;
+  background-color: #EAEBEE;
+  padding: 20px;
+  border-radius: 7px;
+}
+
+#current-edition .card:hover{
+  border: 1px solid #4C5578;
+}
+
+#current-edition a{
+  text-decoration: none;
+  color: #000000;
+}
+
+#current-edition .btn-outline-success{
+  color: #008283;
+  border-color: #008283;
+  height: 50px;
+  width: 140px;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+#current-edition .btn-outline-success:hover{
+  background-color: #008283;
+  border-color: #008283;
+  color:white;
+}
+
+#current-edition .btn-outline-success:hover path{
+  fill: white;
+}
+
+#current-edition .btn-outline-success svg{
+  width: 22px;
+  height: 22px;
+}
+
+#current-edition .sm-gray-text{
+  color: #737e8d;
+  font-family: Roboto;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+#current-edition .card-body b{
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+
+
 
 @media screen and (max-width: 1399px) {
   #about .row div.col-6{
