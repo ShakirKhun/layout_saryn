@@ -66,3 +66,6 @@ toggleBtn.addEventListener('click', () => {
   menu.classList.toggle('active');
 
 })
+
+// const journalHover = document.getElementById('journal-button')
+// const journalDropdown = document.getElementById('journal-menu')

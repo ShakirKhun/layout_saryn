@@ -472,6 +472,10 @@ footer .social-media:hover rect{
   fill:#4C5578;
 }
 
+#footer-navigation{
+  margin-top: -140px;
+}
+
 #button-up{
   width: 50px;
   height: 50px;
@@ -657,6 +661,26 @@ footer .social-media:hover rect{
     background-size: 100% 512px;
   }
 
+  footer{
+    margin-top:60px;
+  }
+
+  #footer-navigation{
+    margin-top:10px;
+  }
+
+  footer .col-3{
+    margin-right: 10px;
+    align-items: center;
+  }
+
+  footer .col-6 svg{
+    margin-bottom: 12px;
+    margin-left: 10px;
+  }
+
+
+
 }
 
 @media screen and (max-width: 575px){
@@ -718,5 +742,48 @@ footer .social-media:hover rect{
     font-size: 18px;
     margin: 0 !important;
   }
+
+  #partners{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+  }
+
+  #partners .container{
+    height: 100%;
+  }
+
+  #partners img{
+    height: 50px;
+  }
+
+  footer .col{
+    padding-top: 15px;
+  }
+
+
+  footer .socials div.col-12{
+    justify-content: flex-start !important;
+    margin-top:10px;
+  }
+
+  footer .socials{
+    padding-bottom: 0 !important;
+  }
+
+  #footer-navigation div.container{
+    padding:0;
+  }
+
+  #copyright li{
+    color: #979797 ;
+  }
+
+
+  /* #partners ul.list-group{
+    margin-bottom:
+  } */
+
 
 }
