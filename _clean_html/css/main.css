@@ -744,6 +744,7 @@ footer .social-media:hover rect{
 
 #current-edition hr{
   margin-left: 6px;
+  width: 96%;
   margin-top: 12px;
 }
 
@@ -792,12 +793,27 @@ footer .social-media:hover rect{
   color: #737e8d;
   font-family: Roboto;
   font-size: 12px;
-  margin-top: 20px;
 }
 
 #current-edition .card-body b{
   font-family: Roboto;
   font-size: 16px;
+}
+
+
+@media screen and (max-width: 767px){
+  #current-edition .btn-outline-success{
+    height: 40px;
+  }
+  #current-edition h1{
+    font-size: 35px;
+  }
+
+  #current-edition h2{
+    font-size: 16px;
+  }
+
+
 }
 
 
