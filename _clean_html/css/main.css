@@ -1004,6 +1004,7 @@ footer .social-media:hover rect{
 #article h1{
   font-family: 'Cormorant Garamond';
   font-size: 60px;
+  text-transform: uppercase;
 }
 
 #article h2{
@@ -1070,6 +1071,19 @@ footer .social-media:hover rect{
   width: 5%;
 }
 
+#article ol li{
+  font-family: Roboto;
+  font-size: 16px;
+  color: #4A596B;
+  line-height: 100%;
+}
+
+#article ol{
+  /* list-style-position: inside; */
+  padding-left: 25px;
+}
+
+
 
 @media screen and (max-width: 767px){
   #article {
@@ -1106,6 +1120,44 @@ footer .social-media:hover rect{
 #copyright_section h1{
   color: #4C5578;
 }
+
+
+#alert-card{
+  background-color: #007C81 ;
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: 10px !important;
+}
+
+#alert-card p{
+  margin-bottom: 0 !important;
+  color: #FFF;
+}
+
+#alert-card h2{
+  margin: 0 !important;
+  color: #FFF;
+}
+
+#alert-card button{
+  color: #FFF;
+  height: 50px;
+  font-size: 14px;
+  font-family: Roboto;
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+#alert-card button:hover{
+  color: #007C81;
+}
+
+@media screen and (max-width: 767px){
+  #alert-card{
+    padding: 40px 20px;
+  }
+}
+
 
 
 
