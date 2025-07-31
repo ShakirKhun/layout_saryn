@@ -978,7 +978,7 @@ footer .social-media:hover rect{
 @media screen and (max-width: 767px){
   #archive-detail{
     padding-bottom: 70px;
-    padding-top: 30px;
+    padding-top: 30px; 
   }
 
   #archive-detail h1{
@@ -987,6 +987,57 @@ footer .social-media:hover rect{
 
   #archive-detail .sm-gray-text{
     font-size: 12px !important;
+  }
+
+}
+
+/* article styles */
+
+
+#article{
+  padding-bottom: 200px;
+  padding-top: 60px;
+  background: #ffffff;
+  background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(249, 249, 249, 1) 100%);
+}
+
+#article h1{
+  font-family: 'Cormorant Garamond';
+  font-size: 60px;
+}
+
+#article h2{
+  font-family: 'Cormorant Garamond';
+  font-size: 30px;
+  color:#4C5578;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#article p{
+  color:#4A596B;
+}
+
+#article .col .row{
+  margin-top: 30px;
+}
+
+#article .col h2{
+  margin-bottom: 12px;
+}
+
+#article .col p{
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 767px){
+  #article h1{
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  #article h2{
+    font-size: 25px;
   }
 
 }
