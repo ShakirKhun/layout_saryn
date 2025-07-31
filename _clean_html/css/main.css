@@ -1030,6 +1030,45 @@ footer .social-media:hover rect{
   margin-bottom: 12px;
 }
 
+#article nav{
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  margin-top: 30px;
+  list-style: none;
+  font-family: Roboto;
+  font-size: 12px;
+  color: #959da9;
+  padding: 20px;
+}
+
+#article nav ul{
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+#article nav > ul > li{
+  color: #121217;
+  font-size: 14px;
+  border-bottom: 1px solid #121217;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 100%;
+  padding-bottom: 8px;
+  margin-top: 20px;
+}
+
+#article nav > ul > li > span{
+  width: 95%;
+}
+#article nav > ul > li > svg{
+  width: 5%;
+}
+
+
+
+
 @media screen and (max-width: 767px){
   #article h1{
     font-size: 30px;
@@ -1039,6 +1078,12 @@ footer .social-media:hover rect{
   #article h2{
     font-size: 25px;
   }
+
+  #article nav{
+    margin-top:0;
+  }
+
+
 
 }
 
