@@ -1010,13 +1010,17 @@ footer .social-media:hover rect{
   font-family: 'Cormorant Garamond';
   font-size: 30px;
   color:#4C5578;
-  text-transform: uppercase;
   font-weight: 700;
 }
 
 #article p{
   color:#4A596B;
 }
+
+#article a{
+  color:#4A596B;
+}
+
 
 #article .col .row{
   margin-top: 30px;
@@ -1030,7 +1034,7 @@ footer .social-media:hover rect{
   margin-bottom: 12px;
 }
 
-#article nav{
+#article aside{
   border-radius: 5px;
   background-color: #FFFFFF;
   margin-top: 30px;
@@ -1041,13 +1045,13 @@ footer .social-media:hover rect{
   padding: 20px;
 }
 
-#article nav ul{
+#article aside ul{
   list-style: none;
   padding: 0;
   margin-top: 10px;
 }
 
-#article nav > ul > li{
+#article aside > ul > li{
   color: #121217;
   font-size: 14px;
   border-bottom: 1px solid #121217;
@@ -1059,17 +1063,19 @@ footer .social-media:hover rect{
   margin-top: 20px;
 }
 
-#article nav > ul > li > span{
+#article aside > ul > li > span{
   width: 95%;
 }
-#article nav > ul > li > svg{
+#article aside > ul > li > svg{
   width: 5%;
 }
 
 
-
-
 @media screen and (max-width: 767px){
+  #article {
+    padding-bottom: 150px;
+  }
+
   #article h1{
     font-size: 30px;
     font-weight: 600;
@@ -1079,12 +1085,26 @@ footer .social-media:hover rect{
     font-size: 25px;
   }
 
-  #article nav{
+  #article aside{
     margin-top:0;
   }
 
+}
+
+@media screen and (max-width: 575px){
+  #article {
+    padding-bottom: 50px;
+  }
 
 
+}
+
+#copyright_section .accent-color{
+  color:#008283;
+}
+
+#copyright_section h1{
+  color: #4C5578;
 }
 
 
