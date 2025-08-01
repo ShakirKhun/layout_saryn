@@ -1055,6 +1055,7 @@ footer .social-media:hover rect{
 #article aside > ul > li{
   color: #121217;
   font-size: 14px;
+  font-weight: 500;
   border-bottom: 1px solid #121217;
   display: flex;
   justify-content: space-between;
