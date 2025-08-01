@@ -945,7 +945,7 @@ footer .social-media:hover rect{
   color: #848e9c;
 }
 
-#archive-detail .badge{
+span.badge{
   font-family: Roboto;
   font-size: 16px;
   background-color: #D9D9D9;
@@ -1167,6 +1167,39 @@ footer .social-media:hover rect{
     padding: 40px 20px;
   }
 }
+
+
+#collegium b{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#collegium h2{
+  font-size: 40px;
+  color: #007C81;
+}
+
+#collegium p{
+  font-size: 14px;
+}
+
+.collegium-participants > div.col-12{
+  margin-bottom: 30px;
+}
+
+
+#collegium .collegium-participants > div.col-12{
+  padding-right: 25px;
+}
+
+@media screen and (max-width: 991px){
+  #collegium div.row.collegium-participants{
+    margin-top: 0;
+  }
+
+}
+
 
 
 
