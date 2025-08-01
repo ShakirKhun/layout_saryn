@@ -735,6 +735,14 @@ footer .social-media:hover rect{
   margin-top: 11px;
 }
 
+#current-edition .authors svg{
+  display: none;
+}
+
+#current-edition .authors:hover svg{
+  display: block;
+}
+
 #current-edition hr{
   margin-left: 6px;
   width: 96%;
