@@ -211,8 +211,6 @@ header .navbar-nav .nav-item a{
   max-height: 0px;
   transition: all 0.4s linear;
 
-  left: 0;
-
 }
 
 #hidden-nav.active{
@@ -1285,18 +1283,11 @@ span.badge{
 }
 
 @media screen and (max-width: 991px){
-  header .btn{
+  header button.btn{
     width: 40px;
     height: 40px;
     padding:0;
   }
-
-  #hidden-nav .btn{
-    width: auto;
-    height: 40px;
-    margin-left: 0;
-  }
-  
   
   #about{
     padding-top:70px;
