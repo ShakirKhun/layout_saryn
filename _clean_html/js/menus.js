@@ -78,10 +78,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (currentDisplay === 'none') {
                 menu.style.display = 'block';
-                icon.style.transform = 'rotate(0deg)';
+                icon.style.transform = 'rotate(180deg)';
             } else {
                 menu.style.display = 'none';
-                icon.style.transform = 'rotate(-90deg)';
+                icon.style.transform = 'rotate(0deg)';
             }
 
         });
@@ -91,6 +91,13 @@ document.addEventListener('DOMContentLoaded', () => {
     setupButton('navAuthorButton', 'navAuthorMenu', 'navAuthorIcon');
     setupButton('navPolicyButton', 'navPolicyMenu', 'navPolicyIcon');
     setupButton('navReviewButton', 'navReviewMenu', 'navReviewIcon');
+
+    setupButton('ManualForAuthorsButton', 'ManualForAuthorsNav', 'ManualForAuthorsSvg');
+    setupButton('RulesForStructuresButton', 'RulesForStructuresNav', 'RulesForStructuresSvg');
+    setupButton('RequirementsButton', 'RequirementsNav', 'RequirementsSvg');
+    setupButton('RulesForAuthorsButton', 'RulesForAuthorsNav', 'RulesForAuthorsSvg');
+
+
 
 
     function setupHoverLang() {
